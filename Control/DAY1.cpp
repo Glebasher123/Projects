@@ -38,7 +38,7 @@ int if15 (int a, int b, int c)
         if (b>c)
             return a + b;
         else
-            return a+b ;
+            return a + c;
     }
     else
         return b+c;
