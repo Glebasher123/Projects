@@ -1,0 +1,23 @@
+﻿<Window x:Class="Kursa4Wpf.ResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursa4Wpf"
+        mc:Ignorable="d"
+        Title="ResultWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF8D2A2A" Offset="0"/>
+                <GradientStop Color="#FF7C00C3" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock x:Name="ResultBlock" HorizontalAlignment="Left" Margin="10,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="238" Foreground="White" FontSize="22"/>
+        <TextBox x:Name="InfoBox" HorizontalAlignment="Left" Height="379" Margin="266,18,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="483" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+        <Button Content="Сохранить результат" HorizontalAlignment="Left" Margin="23,319,0,0" VerticalAlignment="Top" Width="203" Height="36" Click="Button_Click"/>
+        <Button Content="Выйти в главное меню" HorizontalAlignment="Left" Margin="23,361,0,0" VerticalAlignment="Top" Width="203" Height="36" Click="Button_Click_2"/>
+        <Button Content="Пройти тест ещё раз" HorizontalAlignment="Left" Margin="23,278,0,0" VerticalAlignment="Top" Width="203" Height="36" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

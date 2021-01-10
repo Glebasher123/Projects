@@ -1,0 +1,117 @@
+﻿<Window x:Class="Kursa4Wpf.AdminPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursa4Wpf"
+        mc:Ignorable="d"
+        Title="AdminPanel" Height="462.462" Width="633.903">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="5" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="0,0,2,0">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFD000FF" Offset="0.948"/>
+                <GradientStop Color="#FF9700C3" Offset="0.353"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="VoprosBox" HorizontalAlignment="Left" Height="23" Margin="353,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256"/>
+        <Label Content="Вопрос:" FontFamily="OCR A Extended" FontSize="18" Foreground="White" HorizontalAlignment="Left" Margin="353,10,0,0" VerticalAlignment="Top" Width="256"/>
+        <Label Content="Баллы за Да:" FontFamily="OCR A Extended" FontSize="18" Foreground="White" HorizontalAlignment="Left" Margin="353,72,0,0" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="YesBals" HorizontalAlignment="Left" Height="23" Margin="555,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <Label Content="Баллы за Нет:" FontFamily="OCR A Extended" FontSize="18" Foreground="White" HorizontalAlignment="Left" Margin="353,101,0,0" VerticalAlignment="Top" Width="256"/>
+        <TextBox x:Name="NopeBals" HorizontalAlignment="Left" Height="23" Margin="555,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <Button x:Name="AddBtn"  Content="Добавить" HorizontalAlignment="Left" Margin="353,146,0,0" VerticalAlignment="Top" Width="256" Height="24" Click="AddBtn_Click" Style="{DynamicResource ButtonStyle1}" Background="#FF801D80"/>
+        <Button x:Name="RemoveBtn" Content="Удалить" HorizontalAlignment="Left" Margin="353,175,0,0" VerticalAlignment="Top" Width="256" Height="24" Click="RemoveBtn_Click" Style="{DynamicResource ButtonStyle1}"/>
+        <Label Content="Сангвиник" HorizontalAlignment="Left" Margin="367,307,0,0" VerticalAlignment="Top"/>
+        <Label Content="Холерик" HorizontalAlignment="Left" Margin="367,333,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label Content="Меланхолик" HorizontalAlignment="Left" Margin="367,359,0,0" VerticalAlignment="Top"/>
+        <Label Content="Флегматик" HorizontalAlignment="Left" Margin="367,385,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="SangLabel" Content="0" HorizontalAlignment="Left" Margin="466,310,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="HollLabel" Content="0" HorizontalAlignment="Left" Margin="466,336,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MelLabel" Content="0" HorizontalAlignment="Left" Margin="466,359,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="FlexLabel" Content="0" HorizontalAlignment="Left" Margin="466,385,0,0" VerticalAlignment="Top" Height="26"/>
+        <Button Content="Отчет" Style="{DynamicResource ButtonStyle1}" HorizontalAlignment="Left" Margin="505,375,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click"/>
+        <Button x:Name="ExitButton" Style="{DynamicResource ButtonStyle1}" Content="Выйти" HorizontalAlignment="Left" Margin="505,400,0,0" VerticalAlignment="Top" Width="104" Click="ExitButton_Click"/>
+        <TabControl x:Name="TabTable" HorizontalAlignment="Left" Height="398" Margin="10,12,0,0" VerticalAlignment="Top" Width="328">
+            <TabItem x:Name="BelovItem" Header="Белов" Margin="-2,-1">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="DataTable" HorizontalAlignment="Left" Height="370" ItemsSource="{Binding Quest}" VerticalAlignment="Top" Width="322">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn  Header="Вопрос:" Width="200" Binding="{Binding Question}" />
+                            <DataGridTextColumn  Header="Да:" Width="45" Binding="{Binding Yes}"/>
+                            <DataGridTextColumn  Header="Нет:" Width="45" Binding="{Binding No}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="AizenkItem" Header="Айзенк">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="DataTable1" HorizontalAlignment="Left" Height="370" ItemsSource="{Binding Quest}" VerticalAlignment="Top" Width="322">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn  Header="Вопрос:" Width="200" Binding="{Binding Question}" />
+                            <DataGridTextColumn  Header="Да:" Width="45" Binding="{Binding Yes}"/>
+                            <DataGridTextColumn  Header="Нет:" Width="45" Binding="{Binding No}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
