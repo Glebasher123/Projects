@@ -1,0 +1,105 @@
+﻿<Window x:Class="AppNKA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppNKA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="345.028">
+    <Window.Resources>
+        <ControlTemplate x:Key="ButtonTemplate" TargetType="Button">
+            <Border BorderBrush="#FF412899" BorderThickness="3" CornerRadius="5"
+                    TextBlock.Foreground="White"
+                    TextBlock.TextAlignment="Center">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStopCollection>
+                            <GradientStop  Color="#FF36C5B1"></GradientStop>
+                        </GradientStopCollection>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentPresenter RecognizesAccessKey="True"></ContentPresenter>
+            </Border>
+        </ControlTemplate>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="5" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="HoverUnderlineStyle">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="TextBlock.TextDecorations" Value="Underline" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Cursor="Arrow" AutomationProperties.HelpText="Чтобы начать тест, нажмите" Margin="0,0,0,-1">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFD000FF" Offset="0.948"/>
+                <GradientStop Color="#FF7C00C3" Offset="0.353"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="29,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="289" FontFamily="Century Gothic" FontSize="40" Foreground="White" FontWeight="Bold" FontStyle="Italic"><Run Text="АВТОРИЗАЦИЯ"/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="buttonLogin" Content="Войти" HorizontalAlignment="Left" Margin="53,224,0,0" VerticalAlignment="Top" Width="252" Height="51" Cursor="Hand" Style="{DynamicResource ButtonStyle1}" KeyUp="Grid_KeyUp" Click="ButtonLogin_Click"/>
+        <TextBox x:Name="loginField" HorizontalAlignment="Left" Height="33" Margin="53,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+        <PasswordBox x:Name="passField" HorizontalAlignment="Left" Margin="53,164,0,0" VerticalAlignment="Top" Width="252" Height="33"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="10,117,0,0" VerticalAlignment="Top" Width="38" Source="Images/Login.png"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="10,164,0,0" VerticalAlignment="Top" Width="38" Source="Images/Password.png" RenderTransformOrigin="0.512,1.472"/>
+        <TextBlock x:Name="RegistrationBlock" HorizontalAlignment="Left" Margin="29,289,0,0" Style="{StaticResource HoverUnderlineStyle}" TextWrapping="Wrap" Text="Еще не зарегестрированы? Исправьте это!" VerticalAlignment="Top" Height="23" Width="298" FontWeight="Bold" FontSize="14" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Cursor="Hand"/>
+        <Label x:Name="HelpLabel" Content="?" HorizontalAlignment="Left" Margin="313,373,0,0" VerticalAlignment="Top" MouseLeftButtonDown="HelpLabel_MouseLeftButtonDown" FontSize="20" FontWeight="Bold" Foreground="#FF1C4FBD" Cursor="Hand"/>
+
+
+    </Grid>
+</Window>

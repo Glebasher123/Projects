@@ -1,0 +1,174 @@
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA.csprojAssemblyReference.cache
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AfterAutorizWindow.g.cs
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\HelpSystem.g.cs
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\RegisterWindow.g.cs
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\App.g.cs
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA_MarkupCompile.cache
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA_MarkupCompile.lref
+C:\Users\vysta\source\repos\AppNKA\AppNKA\bin\Debug\AppNKA.exe.config
+C:\Users\vysta\source\repos\AppNKA\AppNKA\bin\Debug\AppNKA.exe
+C:\Users\vysta\source\repos\AppNKA\AppNKA\bin\Debug\AppNKA.pdb
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AfterAutorizWindow.baml
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\HelpSystem.baml
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\MainWindow.baml
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\RegisterClient.baml
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\RegisterWindow.baml
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA.g.resources
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA.Properties.Resources.resources
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA.csproj.GenerateResource.cache
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA.csproj.CoreCompileInputs.cache
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA.exe
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\AppNKA.pdb
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\MainWindow.g.cs
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\RegisterClient.g.cs
+C:\Users\vysta\source\repos\AppNKA\AppNKA\obj\Debug\WindowDatabases.baml
+D:\Demontino\Documents\AppNKA\AppNKA\bin\Debug\AppNKA.exe.config
+D:\Demontino\Documents\AppNKA\AppNKA\bin\Debug\AppNKA.exe
+D:\Demontino\Documents\AppNKA\AppNKA\bin\Debug\AppNKA.pdb
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA.csprojAssemblyReference.cache
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AfterAutorizWindow.g.cs
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\HelpSystem.g.cs
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\MainWindow.g.cs
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\RegisterClient.g.cs
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\RegisterWindow.g.cs
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\App.g.cs
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA_MarkupCompile.cache
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA_MarkupCompile.lref
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AfterAutorizWindow.baml
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\HelpSystem.baml
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\MainWindow.baml
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\RegisterClient.baml
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\RegisterWindow.baml
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA.g.resources
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA.Properties.Resources.resources
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA.csproj.GenerateResource.cache
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA.csproj.CoreCompileInputs.cache
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA.exe
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\AppNKA.pdb
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\ClientList.g.cs
+D:\Demontino\Documents\AppNKA\AppNKA\obj\Debug\ClientList.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\bin\Debug\AppNKA.exe.config
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\bin\Debug\AppNKA.exe
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\bin\Debug\AppNKA.pdb
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA.csprojAssemblyReference.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AfterAutorizWindow.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\ClientList.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\HelpSystem.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\MainWindow.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\RegisterClient.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\RegisterWindow.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\App.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA_MarkupCompile.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA_MarkupCompile.lref
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AfterAutorizWindow.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\ClientList.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\HelpSystem.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\MainWindow.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\RegisterClient.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\RegisterWindow.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA.g.resources
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA.Properties.Resources.resources
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA.csproj.GenerateResource.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA.csproj.CoreCompileInputs.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA.exe
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\AppNKA\AppNKA\obj\Debug\AppNKA.pdb
+D:\123\AppNKA\bin\Debug\AppNKA.exe.config
+D:\123\AppNKA\bin\Debug\AppNKA.exe
+D:\123\AppNKA\bin\Debug\AppNKA.pdb
+D:\123\AppNKA\obj\Debug\AppNKA.csprojAssemblyReference.cache
+D:\123\AppNKA\obj\Debug\AfterAutorizWindow.g.cs
+D:\123\AppNKA\obj\Debug\ClientList.g.cs
+D:\123\AppNKA\obj\Debug\HelpSystem.g.cs
+D:\123\AppNKA\obj\Debug\MainWindow.g.cs
+D:\123\AppNKA\obj\Debug\RegisterClient.g.cs
+D:\123\AppNKA\obj\Debug\RegisterWindow.g.cs
+D:\123\AppNKA\obj\Debug\App.g.cs
+D:\123\AppNKA\obj\Debug\AppNKA_MarkupCompile.cache
+D:\123\AppNKA\obj\Debug\AppNKA_MarkupCompile.lref
+D:\123\AppNKA\obj\Debug\AfterAutorizWindow.baml
+D:\123\AppNKA\obj\Debug\ClientList.baml
+D:\123\AppNKA\obj\Debug\HelpSystem.baml
+D:\123\AppNKA\obj\Debug\MainWindow.baml
+D:\123\AppNKA\obj\Debug\RegisterClient.baml
+D:\123\AppNKA\obj\Debug\RegisterWindow.baml
+D:\123\AppNKA\obj\Debug\AppNKA.g.resources
+D:\123\AppNKA\obj\Debug\AppNKA.Properties.Resources.resources
+D:\123\AppNKA\obj\Debug\AppNKA.csproj.GenerateResource.cache
+D:\123\AppNKA\obj\Debug\AppNKA.csproj.CoreCompileInputs.cache
+D:\123\AppNKA\obj\Debug\AppNKA.exe
+D:\123\AppNKA\obj\Debug\AppNKA.pdb
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\bin\Debug\AppNKA.exe.config
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\bin\Debug\AppNKA.exe
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\bin\Debug\AppNKA.pdb
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.csprojAssemblyReference.cache
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AfterAutorizWindow.g.cs
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\ClientList.g.cs
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\HelpSystem.g.cs
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\MainWindow.g.cs
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterClient.g.cs
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterWindow.g.cs
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\App.g.cs
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA_MarkupCompile.cache
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA_MarkupCompile.lref
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AfterAutorizWindow.baml
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\ClientList.baml
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\HelpSystem.baml
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\MainWindow.baml
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterClient.baml
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterWindow.baml
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.g.resources
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.Properties.Resources.resources
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.csproj.GenerateResource.cache
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.csproj.CoreCompileInputs.cache
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.exe
+C:\Users\vysta\Desktop\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.pdb
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\bin\Debug\AppNKA.exe.config
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\bin\Debug\AppNKA.exe
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\bin\Debug\AppNKA.pdb
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.csprojAssemblyReference.cache
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AfterAutorizWindow.g.cs
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\ClientList.g.cs
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\HelpSystem.g.cs
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\MainWindow.g.cs
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterClient.g.cs
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterWindow.g.cs
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\App.g.cs
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA_MarkupCompile.cache
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA_MarkupCompile.lref
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AfterAutorizWindow.baml
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\ClientList.baml
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\HelpSystem.baml
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\MainWindow.baml
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterClient.baml
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\RegisterWindow.baml
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.g.resources
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.Properties.Resources.resources
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.csproj.GenerateResource.cache
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.csproj.CoreCompileInputs.cache
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.exe
+C:\Users\Demontino\source\repos\APPNKA [Mod by MoriDan 1.9]\AppNKA\obj\Debug\AppNKA.pdb
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\bin\Debug\AppNKA.exe.config
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\bin\Debug\AppNKA.exe
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\bin\Debug\AppNKA.pdb
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA.csprojAssemblyReference.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AfterAutorizWindow.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\ClientList.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\HelpSystem.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\MainWindow.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\RegisterClient.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\RegisterWindow.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\App.g.cs
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA_MarkupCompile.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA_MarkupCompile.lref
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AfterAutorizWindow.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\ClientList.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\HelpSystem.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\MainWindow.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\RegisterClient.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\RegisterWindow.baml
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA.g.resources
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA.Properties.Resources.resources
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA.csproj.GenerateResource.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA.csproj.CoreCompileInputs.cache
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA.exe
+C:\Users\vysta\Desktop\УЧЕБА\Проекты\APPNKA [Mod by MoriDan 1.9.1]\AppNKA\obj\Debug\AppNKA.pdb

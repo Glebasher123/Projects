@@ -1,0 +1,128 @@
+﻿<Window x:Class="AppNKA.RegisterClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppNKA"
+        mc:Ignorable="d"
+        Title="RegisterClient" Height="483" Width="763.347" Closing="Window_Closing">
+    <Window.Resources>
+        <ControlTemplate x:Key="ButtonTemplate" TargetType="Button">
+            <Border BorderBrush="#FF412899" BorderThickness="3" CornerRadius="5"
+                    TextBlock.Foreground="White"
+                    TextBlock.TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Left">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStopCollection>
+                            <GradientStop  Color="#FF36C5B1"></GradientStop>
+                        </GradientStopCollection>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentPresenter RecognizesAccessKey="True"></ContentPresenter>
+            </Border>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid Cursor="Arrow" AutomationProperties.HelpText="Чтобы начать тест, нажмите" Margin="0,0,0,-31" Background="#FF0E60A4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="136*"/>
+            <ColumnDefinition Width="277*"/>
+            <ColumnDefinition Width="199*"/>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="148,0,0,446" TextWrapping="Wrap" VerticalAlignment="Center" Height="37" Width="183" FontFamily="Century Gothic" FontSize="24" Foreground="#FFFFBB07" Text="Новый клиент" TextDecorations="{x:Null}" FontStyle="Italic" FontWeight="Bold" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="FIOField" ToolTip="Введите имя" HorizontalAlignment="Left" Height="25" Margin="0,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" Grid.Column="1"/>
+        <TextBox x:Name="NameField" HorizontalAlignment="Left" Height="25" Margin="0,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" Grid.Column="1"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="41,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Foreground="#FF5EEAE3" Height="26" Width="72"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="31,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="29" Width="92"/>
+        <Label Content="Состояние участка" HorizontalAlignment="Left" Margin="4,39,-2.2,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" Width="143" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="28" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label Content="Адрес" HorizontalAlignment="Left" Margin="37,169,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="29" Width="86"/>
+        <TextBox x:Name="OT4Field" HorizontalAlignment="Left" Height="25" Margin="0,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" Grid.Column="1"/>
+        <TextBox x:Name="AddressField" HorizontalAlignment="Left" Height="25" Margin="0,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" Grid.Column="1"/>
+        <TextBox x:Name="NumberField" HorizontalAlignment="Left" Height="25" Margin="0,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" Grid.Column="1"/>
+        <Label Content="Моб.номер" HorizontalAlignment="Left" Margin="21,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="29" Width="92"/>
+        <Button x:Name="buttonRegister" Content="Добавить" HorizontalAlignment="Left" Margin="90,376,0,0" VerticalAlignment="Top" Width="310" Height="55" Click="ButtonRegister_Click_1" Grid.Column="1" Grid.ColumnSpan="2" FontSize="20" Background="#FF25E4DB"/>
+        <TextBox x:Name="Stoim2Field" HorizontalAlignment="Left" Height="25" Margin="0,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" Grid.Column="1"/>
+        <Label Content="Стоимость, м2" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="29" Width="126"/>
+        <TextBox x:Name="SquareField" HorizontalAlignment="Left" Height="25" Margin="0,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" Grid.Column="1"/>
+        <Label Content="Площадь" HorizontalAlignment="Left" Margin="31,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="29" Width="126" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="SostObjField" HorizontalAlignment="Left" Height="25" Margin="10,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" Cursor="IBeam" Grid.Column="2"/>
+        <TextBox x:Name="IDClientField" ToolTip="Введите имя" HorizontalAlignment="Left" Height="25" Margin="0,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Cursor="IBeam" IsEnabled="False" Grid.Column="1"/>
+        <Label Content="Стоимость фундамента" HorizontalAlignment="Left" Margin="0,266,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="10" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="25" Width="126" Grid.Column="3"/>
+        <Label Content="ID клиента" HorizontalAlignment="Left" Margin="21,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="29" Width="92"/>
+        <ComboBox x:Name="ObjectSost" Grid.Column="2" SelectedItem="0" HorizontalAlignment="Left" Margin="10.2,42,0,0" VerticalAlignment="Top" Width="186" Height="22">
+            <ComboBoxItem>
+                <TextBlock>Отличное</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Удовлетворительное</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Неудовлетворительное</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="Pastawka" Grid.Column="2" SelectedItem="0" HorizontalAlignment="Left" Margin="10.2,75,0,0" VerticalAlignment="Top" Width="186" Height="22">
+            <ComboBoxItem >
+                <TextBlock>Промматериалы</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>ПетровМатериалы</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>ОАО ПЕТРОВИЧИ</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="ObjectSdan" Grid.Column="2" SelectedItem="0"  HorizontalAlignment="Left" Margin="10.2,112,0,0" VerticalAlignment="Top" Width="186" Height="22">
+            <ComboBoxItem >
+                <TextBlock>Да</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Нет</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="Method_marks" Grid.Column="2" SelectedItem="0"  HorizontalAlignment="Left" Margin="10.2,142,0,0" VerticalAlignment="Top" Width="186" Height="22">
+            <ComboBoxItem >
+                <TextBlock>Затратный</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Доходный</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Сравнительный</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="Zajazal" Grid.Column="2" SelectedItem="0"  HorizontalAlignment="Left" Margin="10.2,172,0,0" VerticalAlignment="Top" Width="186" Height="22">
+            <ComboBoxItem >
+                <TextBlock>Иванов Иван Иванович</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Анигалов Александр Сергеевич</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="registerControl" Grid.Column="2" SelectedItem="0"  HorizontalAlignment="Left" Margin="10.2,202,0,0" VerticalAlignment="Top" Width="186" Height="22">
+            <ComboBoxItem >
+                <TextBlock>Личный контроль</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Автоматизированный</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="Uchet" Grid.Column="2" SelectedValuePath="Да" HorizontalAlignment="Left" Margin="10.2,232,0,0" VerticalAlignment="Top" Width="186" Height="22">
+            <ComboBoxItem >
+                <TextBlock>Да</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Нет</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Content="Список поставщиков" HorizontalAlignment="Left" Margin="4,73,-2.2,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" Width="143" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="28" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label Content="Объект сдан" HorizontalAlignment="Left" Margin="4,112,-2.2,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" Width="143" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="28" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label Content="Метод оценки участка" HorizontalAlignment="Left" Margin="4,142,-2.2,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="11" Width="143" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="28" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label Content="Заказчик кад-ой оценки" HorizontalAlignment="Left" Margin="4,170,-2.2,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="10" Width="143" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="28" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label Content="Регистр контроля" HorizontalAlignment="Left" Margin="4,199,-2.2,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" Width="143" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="33" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label Content="Участок на учете" HorizontalAlignment="Left" Margin="4,228,-2.2,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" Width="143" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="33" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="31,80,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.58,0.489" FontSize="14" FontWeight="Bold" Background="{x:Null}" Foreground="#FF5EEAE3" Height="29" Width="82"/>
+
+
+    </Grid>
+</Window>
