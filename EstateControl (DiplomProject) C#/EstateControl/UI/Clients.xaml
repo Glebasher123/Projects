@@ -1,0 +1,21 @@
+﻿<Window x:Class="EstateControl.UI.Clients"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EstateControl.UI"
+        mc:Ignorable="d"
+        Title="Клиенты" Height="600" Width="1200" WindowStartupLocation="CenterScreen" Background="#FF2BCDAF" Icon="logo.png">
+    <Grid>
+        <DataGrid SelectedCellsChanged="table_SelectedCellsChanged" x:Name="table" HorizontalAlignment="Left" Height="550" Margin="10,10,0,0" VerticalAlignment="Top" Width="900"/>
+        <TextBox Name="fullname" ToolTip="ФИО" MouseEnter="fullname_MouseEnter" MouseLeave="fullname_MouseLeave"  HorizontalAlignment="Left" Height="23" Margin="915,179,0,0" TextWrapping="Wrap" Text="ФИО" VerticalAlignment="Top" Width="267"/>
+        <TextBox x:Name="phone" ToolTip="Телефон" MouseEnter="phone_MouseEnter" MouseLeave="phone_MouseLeave" HorizontalAlignment="Left" Height="23" Margin="915,235,0,0" TextWrapping="Wrap" Text="Телефон" VerticalAlignment="Top" Width="267"/>
+        <TextBox x:Name="passport" ToolTip="Номер паспорта" MouseEnter="passport_MouseEnter" MouseLeave="passport_MouseLeave" HorizontalAlignment="Left" Height="23" Margin="915,207,0,0" TextWrapping="Wrap" Text="Номер паспорта" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Left" Margin="915,263,0,0" VerticalAlignment="Top" Width="266" Click="addButton_Click" Height="43" FontSize="20" FontStyle="Italic" Background="#FF97FF00"/>
+        <Button x:Name="delButton" Content="Удалить клиента" HorizontalAlignment="Left" Margin="915,529,0,0" VerticalAlignment="Top" Width="266" Click="delButton_Click" Background="#FFFF5100" FontWeight="Bold" Height="30"/>
+        <Button x:Name="chooseButton" Content="Выбрать существующего клиента" HorizontalAlignment="Left" Margin="915,494,0,0" VerticalAlignment="Top" Width="267" Click="chooseButton_Click" Background="#FFAEFF00" FontWeight="Bold" Height="30"/>
+        <TextBox TextChanged="search_TextChanged" x:Name="search" MouseEnter="search_MouseEnter" MouseLeave="search_MouseLeave" HorizontalAlignment="Left" Height="23" Margin="915,10,0,0" TextWrapping="Wrap" Text="Поиск" VerticalAlignment="Top" Width="267" VerticalContentAlignment="Center"/>
+        <Label Content="Добавить нового клиента" HorizontalAlignment="Left" Margin="930,145,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontStyle="Italic" Foreground="#FFC500FF"/>
+
+    </Grid>
+</Window>

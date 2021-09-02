@@ -1,0 +1,29 @@
+﻿<Window x:Class="EstateControl.UI.Statistic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EstateControl.UI"
+        mc:Ignorable="d"
+        Title="Statistic" Height="600" Width="1200" WindowStartupLocation="CenterScreen" Background="#FF2BCDAF">
+    <Grid>
+        <DataGrid CanUserAddRows="False" IsReadOnly="True"  x:Name="table" HorizontalAlignment="Left" Height="550" Margin="10,10,0,0" VerticalAlignment="Top" Width="900"/>
+        <ComboBox SelectionChanged="statistic_SelectionChanged" Name="statistic" HorizontalAlignment="Left" Margin="1024,47,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Тип статистики" HorizontalAlignment="Left" Margin="910,42,0,0" VerticalAlignment="Top" Width="109" FontSize="13" FontWeight="Bold" Foreground="#FFD1FF00"/>
+        <Label Name="sum" Content="" HorizontalAlignment="Left" Margin="910,473,0,0" VerticalAlignment="Top" Width="258" Foreground="#FFFF5D00" Height="86" FontWeight="Bold" FontSize="14"/>
+        <DatePicker SelectedDateChanged="start_SelectedDateChanged" Name="start" HorizontalAlignment="Left" Margin="915,74,0,0" VerticalAlignment="Top"/>
+        <DatePicker SelectedDateChanged="end_SelectedDateChanged" Name="end" HorizontalAlignment="Left" Margin="1082,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="От" HorizontalAlignment="Left" Margin="915,98,0,0" VerticalAlignment="Top" Width="100" HorizontalContentAlignment="Center"/>
+        <Label Content="До" HorizontalAlignment="Left" Margin="1082,98,0,0" VerticalAlignment="Top" Width="100" HorizontalContentAlignment="Center"/>
+        <Label Content="Числа" HorizontalAlignment="Left" Margin="922,303,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Введите строку" HorizontalAlignment="Left" Margin="922,334,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="stringTextbox" ToolTip="Введите текст" HorizontalAlignment="Left" Height="23" Margin="922,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="266"/>
+        <TextBox x:Name="highNumber" ToolTip="Введите максимальное число" HorizontalAlignment="Left" Height="23" Margin="1080,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
+        <TextBox x:Name="lowerNuber"  ToolTip="Введите минимальное число" HorizontalAlignment="Left" Height="23" Margin="970,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="105"/>
+        <ComboBox Name="type" ToolTip="Выберите нужное поле для фильтрации" HorizontalAlignment="Left" Margin="1068,270,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Столбец для сортировки" HorizontalAlignment="Left" Margin="916,266,0,0" VerticalAlignment="Top" Width="147" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Button Content="Найти" HorizontalAlignment="Left" Margin="921,388,0,0" VerticalAlignment="Top" Width="267" Click="Button_Click" FontWeight="Bold" Height="31" Background="Cyan"/>
+        <Label Content="Фильтр" HorizontalAlignment="Left" Margin="1011,233,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Foreground="#FF025EFF"/>
+
+    </Grid>
+</Window>

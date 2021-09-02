@@ -1,0 +1,31 @@
+﻿<Window x:Class="EstateControl.UI.Estate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EstateControl.UI"
+        mc:Ignorable="d"
+        Title="Estate" Height="600" Width="1200" WindowStartupLocation="CenterScreen" Background="#FF2BCDAF" Icon="logo.png">
+    <Grid>
+        <DataGrid SelectedCellsChanged="table_SelectedCellsChanged" x:Name='table' HorizontalAlignment="Left" Height="550" Margin="10,10,0,0" VerticalAlignment="Top" Width="900"/>
+        <Button Name="town" Content="Города" HorizontalAlignment="Left" Margin="917,146,0,0" VerticalAlignment="Top" Width="112" Height="23" Click="town_Click"/>
+        <Button Name="street" Content="Улицы" HorizontalAlignment="Left" Margin="917,174,0,0" VerticalAlignment="Top" Width="112" Height="23" Click="street_Click"/>
+        <TextBox x:Name="townName" ToolTip="Имя города" HorizontalAlignment="Left" Height="23" Margin="1034,146,0,0" TextWrapping="Wrap" Text="Имя города" VerticalAlignment="Top" Width="150" IsReadOnly="True"/>
+        <TextBox x:Name="streetName" ToolTip="Номер дома" HorizontalAlignment="Left" Height="23" Margin="1034,174,0,0" TextWrapping="Wrap" Text="Имя улицы" VerticalAlignment="Top" Width="150" IsReadOnly="True"/>
+        <ComboBox Name="type" HorizontalAlignment="Left" Margin="1034,202,0,0" VerticalAlignment="Top" Width="150" Height="23"/>
+        <Label Content="Тип имущества" HorizontalAlignment="Left" Margin="917,197,0,0" VerticalAlignment="Top" Width="112" HorizontalContentAlignment="Center"/>
+        <TextBox MouseEnter="roomsCount_MouseEnter" ToolTip="Кол-во комнат" MouseLeave="roomsCount_MouseLeave" x:Name="roomsCount" HorizontalAlignment="Left" Height="23" Margin="961,230,0,0" TextWrapping="Wrap" Text="Количество комнат" VerticalAlignment="Top" Width="118"/>
+        <TextBox MouseEnter="floor_MouseEnter"   MouseLeave="floor_MouseLeave" Name="floor" HorizontalAlignment="Left" Height="23" Margin="918,230,0,0" TextWrapping="Wrap" Text="Этаж" ToolTip="Этаж" VerticalAlignment="Top" Width="43"/>
+        <TextBox Name="area" MouseEnter="area_MouseEnter" ToolTip="Площадь" MouseLeave="area_MouseLeave" HorizontalAlignment="Left" Height="23" Margin="1084,230,0,0" TextWrapping="Wrap" Text="Площадь" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="apartmentNumber" ToolTip="Номер квартиры" MouseEnter="apartmentNumber_MouseEnter" MouseLeave="apartmentNumber_MouseLeave" HorizontalAlignment="Left" Height="23" Margin="1000,258,0,0" TextWrapping="Wrap" Text="Номер квартиры" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="houseNumber" ToolTip="Номер дома" MouseEnter="houseNumber_MouseEnter" MouseLeave="houseNumber_MouseLeave" HorizontalAlignment="Left" Height="23" Margin="918,258,0,0" TextWrapping="Wrap" Text="Номер дома" VerticalAlignment="Top" Width="82"/>
+        <TextBox MouseEnter="price_MouseEnter" ToolTip="Стоимость" MouseLeave="price_MouseLeave" x:Name="price" HorizontalAlignment="Left" Height="23" Margin="1108,258,0,0" TextWrapping="Wrap" Text="Стоимость" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="notes" ToolTip="Примечания" MouseEnter="notes_MouseEnter" MouseLeave="notes_MouseLeave" HorizontalAlignment="Left" Margin="918,286,0,0" TextWrapping="Wrap" Text="Примечания" VerticalAlignment="Top" Width="267" Height="80" RenderTransformOrigin="0.495,0.488"/>
+        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Left" Margin="918,371,0,0" VerticalAlignment="Top" Width="266" Click="addButton_Click" Height="35" Background="#FFFFDC00" FontSize="20" FontStyle="Italic"/>
+        <Button x:Name="delButton" Content="Удалить имущество" HorizontalAlignment="Left" Margin="918,530,0,0" VerticalAlignment="Top" Width="264" Click="delButton_Click" Background="#FFFF5100" FontWeight="Bold" Height="30"/>
+        <Button x:Name="chooseButton" Content="Выбрать существующее имущество" HorizontalAlignment="Left" Margin="915,494,0,0" VerticalAlignment="Top" Width="267" Click="chooseButton_Click" Background="#FFAEFF00" FontWeight="Bold" Height="31"/>
+        <TextBox MouseEnter="search_MouseEnter" MouseLeave="search_MouseLeave" TextChanged="search_TextChanged" x:Name="search" HorizontalAlignment="Left" Height="23" Margin="917,10,0,0" TextWrapping="Wrap" Text="Поиск" VerticalAlignment="Top" Width="267"/>
+        <Label Content="Добавить новое имущество" HorizontalAlignment="Left" Margin="917,107,-1,0" VerticalAlignment="Top" Width="276" FontSize="18" Foreground="#FFD1FF00" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Window>

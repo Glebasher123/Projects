@@ -1,0 +1,24 @@
+﻿<Window x:Class="EstateControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EstateControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1200" WindowStartupLocation="CenterScreen" Background="#FF2BCDAF" Icon="logo.png">
+    <Grid>
+        <DataGrid SelectedCellsChanged="table_SelectedCellsChanged" x:Name="table" HorizontalAlignment="Left" Height="550" Margin="10,10,0,0" VerticalAlignment="Top" Width="900" Background="#FF2BCDAF" Foreground="#FF134ADE"/>
+        <Button Name="estate" Content="Выбрать имущество" HorizontalAlignment="Left" Margin="917,190,0,0" VerticalAlignment="Top" Width="132" Click="estate_Click" Height="30" Background="#FFFFAE00" FontWeight="Bold"/>
+        <Button Name="client" Content="Выбрать клиента" HorizontalAlignment="Left" Margin="1054,190,0,0" VerticalAlignment="Top" Width="123" Click="client_Click" Height="30" Background="#FFFFAE00" FontWeight="Bold"/>
+        <ComboBox Name="docType" HorizontalAlignment="Left" Margin="954,245,0,0" VerticalAlignment="Top" Width="205" SelectionChanged="docType_SelectionChanged"/>
+        <Label Name="type" Content="Выберите документ для регистрации" HorizontalAlignment="Left" Margin="917,220,0,0" VerticalAlignment="Top" Width="269" Foreground="#FF0023FF" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="print" Content="Распечатать" HorizontalAlignment="Left" Margin="915,423,0,0" VerticalAlignment="Top" Width="267" Click="print_Click" Height="32" FontWeight="Bold" Background="#FF53C8FF"/>
+        <Button x:Name="registrate" Content="Зарегестрировать" HorizontalAlignment="Left" Margin="917,272,0,0" VerticalAlignment="Top" Width="265" Click="registrate_Click" Height="30" FontWeight="Bold" FontSize="14" Background="#FF8BFF00"/>
+        <TextBox MouseEnter="search_MouseEnter" MouseLeave="search_MouseLeave" TextChanged="search_TextChanged" Name="search" HorizontalAlignment="Left" Height="23" Margin="915,10,0,0" TextWrapping="Wrap" Text="Поиск" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="delete" Content="Удалить клиента из базы" HorizontalAlignment="Left" Margin="915,496,0,0" VerticalAlignment="Top" Width="267" Click="delete_Click" FontWeight="Bold" Background="#FFFF5D00" Height="30"/>
+        <Button Content="Перейти в статистику" Name="statistic" HorizontalAlignment="Left" Margin="915,460,0,0" VerticalAlignment="Top" Width="267" Click="statistic_Click" FontWeight="Bold" Background="#FFEE0CBB" Height="31"/>
+        <Label Content="Добавить клиента в базу" HorizontalAlignment="Left" Margin="953,154,0,0" VerticalAlignment="Top" FontSize="16" Background="{x:Null}" Foreground="Red" FontWeight="Bold"/>
+        <Button Content="Справка" HorizontalAlignment="Left" Margin="915,529,0,0" VerticalAlignment="Top" Width="267" Height="30" FontWeight="Bold" Background="#FFFFFF02" Click="Button_Click"/>
+
+    </Grid>
+</Window>

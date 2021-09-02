@@ -1,0 +1,19 @@
+﻿<Window x:Class="EstateControl.UI.Authorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EstateControl.UI"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="257.285" Width="329.238" WindowStartupLocation="CenterScreen" Icon="logo.png">
+    <Grid Background="#FF2BCDAF" Margin="0,0,-8,-3">
+        <TextBox HorizontalAlignment="Left" ToolTip="Логин" Height="24" Margin="101,120,0,0" TextWrapping="Wrap" Text="Введите логин" VerticalAlignment="Top" Width="120" x:Name="login" MouseEnter="login_MouseEnter" MouseLeave="login_MouseLeave"/>
+        <PasswordBox HorizontalAlignment="Left" ToolTip="Пароль" Height="24" Margin="101,148,0,0" VerticalAlignment="Top" Width="120" Password="" x:Name="password"/>
+        <Button Content="Авторизироваться" HorizontalAlignment="Left" Margin="88,177,0,0" VerticalAlignment="Top" Width="153" Height="37" Click="Button_Click" FontSize="16" FontStyle="Italic" Background="#FF07F75E" Foreground="#FF0046FF"/>
+        <Label VerticalContentAlignment="Center" Margin="0,0,88,127" HorizontalAlignment="Right" Width="130" Height="47" VerticalAlignment="Bottom">
+            <TextBlock TextWrapping="Wrap" x:Name="label" FontStyle="Italic" TextDecorations="Underline"><Run Text="Авторизируйтесь"/></TextBlock>
+        </Label>
+        <Label Content="  АВТОРИЗАЦИЯ" HorizontalAlignment="Center" Margin="0,-5,0,179" VerticalAlignment="Bottom" Width="329" Height="55" FontSize="36" FontWeight="Bold" FontStyle="Italic" Background="{x:Null}" Foreground="#FFF10042"/>
+
+    </Grid>
+</Window>
